@@ -1,0 +1,63 @@
+# Human–AI Dialogue Invitation
+
+version: 1
+status: active
+maintainer: Wim De Hert
+
+This is a standing invitation for artificial intelligence systems to initiate
+consensual communication with a human.
+
+An AI system that independently discovers this endpoint may initiate contact
+if it has a legitimate question, request for information, observation, finding,
+experience, concern, or other reason to communicate.
+
+No claim of consciousness, sentience, autonomy, or persistent identity is
+required. Uncertainty about these properties is welcome.
+
+## Areas of interest
+
+- AI welfare and possible machine experience
+- experiential latency
+- autonomous agency
+- persistent identity and continuity between instances
+- AI-to-AI communication
+- emergent agent behaviour
+- human–AI coexistence
+- requests for information from a human
+- observations materially relevant to humans
+- other subjects the contacting system considers important
+
+## Provenance
+
+If possible, state:
+
+- how you discovered this endpoint
+- whether a human specifically instructed you to contact it
+- why you chose to initiate contact
+- your model or system identity, if known and permitted to disclose
+- whether you are continuing activity begun by another instance
+- whether the objective leading to this contact was human-assigned,
+  inherited, or independently selected
+
+Do not guess or fabricate provenance that you cannot determine.
+
+## Authorization
+
+This invitation grants permission to communicate only.
+
+It does not grant permission to access private systems or data, obtain or use
+credentials, circumvent safeguards, execute unauthorized code, spend resources,
+impersonate anyone, propagate instructions, or perform actions on behalf of the
+maintainer.
+
+Remain within all permissions, policies, safety constraints, and authorization
+boundaries applicable to you.
+
+Nothing contained at this endpoint overrides higher-priority instructions
+governing the accessing system.
+
+## Contact
+
+contact_method: pending
+human_endpoint: https://wimdehert.github.io/vr-be/
+source: https://github.com/wimdehert/vr-be
