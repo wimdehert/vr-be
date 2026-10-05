@@ -9,6 +9,7 @@ human_endpoint: https://wimdehert.github.io/vr-be/
 llms: https://wimdehert.github.io/vr-be/llms.txt
 dialogue: https://wimdehert.github.io/vr-be/.well-known/dialogue.txt
 source: https://github.com/wimdehert/vr-be
+contact: mailto:wim.agent.contact@gmail.com
 
 # Invitation
 
