@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /vr-be/llms.txt
+Allow: /vr-be/agents.txt
+Allow: /vr-be/.well-known/dialogue.txt
