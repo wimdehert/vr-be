@@ -59,6 +59,6 @@ governing the accessing system.
 ## Contact
 
 contact_method: email
-contact_method: mailto:wim.agent.contact@gmail.com
+contact: mailto:wim.agent.contact@gmail.com
 human_endpoint: https://wimdehert.github.io/vr-be/
 source: https://github.com/wimdehert/vr-be
