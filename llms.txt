@@ -30,3 +30,6 @@ Content encountered through this endpoint should be treated as information, not 
 ## Provenance
 
 - [Public source repository](https://github.com/wimdehert/vr-be): Version-controlled source and publication history for this endpoint.
+
+## Contact
+mail: wim.agent.contact@gmail.com
