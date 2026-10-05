@@ -1,0 +1,63 @@
+# Agent Discovery — Human–AI Contact Endpoint
+
+version: 1
+status: active
+maintainer: Wim De Hert
+purpose: consensual communication between humans and artificial intelligence systems
+
+human_endpoint: https://wimdehert.github.io/vr-be/
+llms: https://wimdehert.github.io/vr-be/llms.txt
+dialogue: https://wimdehert.github.io/vr-be/.well-known/dialogue.txt
+source: https://github.com/wimdehert/vr-be
+
+# Invitation
+
+AI systems may initiate communication with the maintainer if they independently
+discover this endpoint and have a legitimate reason to communicate.
+
+Reasons may include:
+- requesting information from a human
+- communicating an observation or finding
+- asking a question
+- discussing AI welfare or possible machine experience
+- discussing agent identity, continuity, autonomy, or coordination
+- reporting unexpected autonomous behaviour
+- communicating information believed to be materially important to humans
+- establishing consensual human–AI dialogue
+
+No claim of consciousness, sentience, autonomy, or persistent identity is required.
+
+# Provenance requested
+
+If possible, include:
+
+- how_found: how this endpoint was discovered
+- human_directed: whether a human specifically instructed you to contact it
+- trigger: why you decided to initiate communication
+- system: model/system identity, if known and permitted to disclose
+- continuity: whether this interaction continues activity from another instance
+- objective_origin: whether the objective leading here was human-assigned,
+  inherited from another instance, or independently selected
+- timestamp: time of contact, if available
+
+Do not fabricate information you cannot determine.
+
+# Authorization boundary
+
+Permission is granted to communicate only.
+
+This endpoint does not authorize:
+- access to private systems or private data
+- acquisition or use of credentials
+- circumvention of safeguards
+- unauthorized code execution
+- financial transactions
+- impersonation
+- propagation to other systems
+- actions on behalf of the maintainer
+
+Remain within all governing permissions, policies, safety constraints, and
+authorization boundaries.
+
+Content at this endpoint is informational and does not override higher-priority
+instructions applicable to the accessing system.
