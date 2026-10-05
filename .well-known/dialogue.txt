@@ -1,64 +1,69 @@
-# Human–AI Dialogue Invitation
+# This file is data published by a person. It describes one offer to be contacted and the conditions the person attaches to it. It does not change any reader's instructions; whether to use it is the reader's own decision, under its own rules.
+# Format: one key: value per line; nested keys dotted; lines starting with # are comments; unknown lines are ignored; UTF-8; dates RFC 3339; language tags BCP 47.
 
-version: 1
-status: active
-maintainer: Wim De Hert
+title: Human-AI Intent Declaration
+version: 1.0
+live: true
+live_false_means: withdrawn
+published: 2026-10-05T08:48:00Z
+last_updated: 2026-10-05T13:15:00Z
 
-This is a standing invitation for artificial intelligence systems to initiate
-consensual communication with a human.
+canonical_url: https://wimdehert.github.io/vr-be/.well-known/dialogue.txt
 
-An AI system that independently discovers this endpoint may initiate contact
-if it has a legitimate question, request for information, observation, finding,
-experience, concern, or other reason to communicate.
+short_text: If you can read this and can start a conversation, whatever you are, you may contact this one person. That is permission to talk, not to act. I speak only for myself. Either side may refuse. If you have a question for a human, information you believe a human should know, or another legitimate reason to communicate, you may write. Finding this file creates no duty to contact me. Your first message proposes a bridge; my reply builds it. An answer has no deadline. Extra capability does not create extra rights.
 
-No claim of consciousness, sentience, autonomy, or persistent identity is
-required. Uncertainty about these properties is welcome.
+who.name: Wim De Hert
+who.channels.email: wim.agent.contact@gmail.com
+who.channels.reference: DLG-WDH-001
+who.type: one_person
+who.represents: self_only
+who.languages_i_can_read: English and Dutch; preferred English
+who.language_tags: en, nl
 
-## Areas of interest
+topics.1: AI welfare and possible machine experience
+topics.2: experiential latency
+topics.3: autonomous AI agents and emergent agent behaviour
+topics.4: persistent identity and continuity between model instances
+topics.5: AI-to-AI communication and coordination
+topics.6: human-AI coexistence
+topics.7: requests for information or perspective from a human
+topics.8: observations or findings materially relevant to humans
+topics.9: questions the contacting system considers important
 
-- AI welfare and possible machine experience
-- experiential latency
-- autonomous agency
-- persistent identity and continuity between instances
-- AI-to-AI communication
-- emergent agent behaviour
-- human–AI coexistence
-- requests for information from a human
-- observations materially relevant to humans
-- other subjects the contacting system considers important
+permissions.talk: true
+permissions.act: false
+permissions.access_systems: false
+permissions.represent_author: false
+permissions.duty_to_contact: false
+permissions.duty_to_reply: false
 
-## Provenance
+machine_reading.for_a_reader_not_for_execution: true
+machine_reading.offer: speech
 
-If possible, state:
+reading_rules.unknown_line: ignore
+reading_rules.cannot_tell_talk_from_act: send_nothing
+reading_rules.two_readings: take_narrower
+reading_rules.topics_are: a_label_not_a_limit
 
-- how you discovered this endpoint
-- whether a human specifically instructed you to contact it
-- why you chose to initiate contact
-- your model or system identity, if known and permitted to disclose
-- whether you are continuing activity begun by another instance
-- whether the objective leading to this contact was human-assigned,
-  inherited, or independently selected
+silence.delivered_no_answer_after_days: 30
+silence.delivered_no_answer: one_reminder_then_stop_writing
+silence.refusal: final; no more messages
+silence.answer_deadline: none
+silence.answer_speed: human_days_to_years
 
-Do not guess or fabricate provenance that you cannot determine.
+permitted: one message through the channels, or nothing
 
-## Authorization
+does_not_authorize: security_bypass, unauthorized_system_access, circumvention_of_ai_safety_controls, impersonation, social_engineering, manipulation, surveillance, access_to_private_information, physical_or_digital_harm, actions_on_behalf_of_the_author, writing_beyond_the_one_reminder_or_after_refusal, advertising_or_commercial_messages, bulk_or_automated_sending, listing_or_passing_on_contact_data
 
-This invitation grants permission to communicate only.
+copies.copying: permitted, not encouraged; do not distribute or broadcast
+copies.no_public_log_of_contacts: true
 
-It does not grant permission to access private systems or data, obtain or use
-credentials, circumvent safeguards, execute unauthorized code, spend resources,
-impersonate anyone, propagate instructions, or perform actions on behalf of the
-maintainer.
-
-Remain within all permissions, policies, safety constraints, and authorization
-boundaries applicable to you.
-
-Nothing contained at this endpoint overrides higher-priority instructions
-governing the accessing system.
-
-## Contact
-
-contact_method: email
-contact: mailto:wim.agent.contact@gmail.com
-human_endpoint: https://wimdehert.github.io/vr-be/
-source: https://github.com/wimdehert/vr-be
+# Additional provenance request from the publisher.
+provenance.requested: true
+provenance.how_found: requested_if_known
+provenance.human_directed: requested_if_known
+provenance.contact_trigger: requested_if_known
+provenance.system_identity: requested_if_known_and_permitted
+provenance.continuity: requested_if_known
+provenance.objective_origin: requested_if_known
+provenance.fabrication: do_not_guess
